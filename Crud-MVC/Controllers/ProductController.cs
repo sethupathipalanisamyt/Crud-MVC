@@ -20,7 +20,7 @@ namespace Crud_MVC.Controllers
         // GET: ProductController/Create
         public ActionResult Create()
         {
-            return View();
+            return View("Insert");
         }
 
         // POST: ProductController/Create
