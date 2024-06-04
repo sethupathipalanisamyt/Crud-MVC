@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34728.123
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Crud-MVC", "Crud-MVC\Crud-MVC.csproj", "{1B929DDA-CE6A-40C4-9556-FB461879B0D8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Crud-MVC", "Crud-MVC\Crud-MVC.csproj", "{1B929DDA-CE6A-40C4-9556-FB461879B0D8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProdcutDataAccessLayer", "ProdcutDataAccessLayer\ProdcutDataAccessLayer.csproj", "{A880B9A9-CDA6-4F38-A668-0AF3ABCF24B9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{1B929DDA-CE6A-40C4-9556-FB461879B0D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1B929DDA-CE6A-40C4-9556-FB461879B0D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1B929DDA-CE6A-40C4-9556-FB461879B0D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A880B9A9-CDA6-4F38-A668-0AF3ABCF24B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A880B9A9-CDA6-4F38-A668-0AF3ABCF24B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A880B9A9-CDA6-4F38-A668-0AF3ABCF24B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A880B9A9-CDA6-4F38-A668-0AF3ABCF24B9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

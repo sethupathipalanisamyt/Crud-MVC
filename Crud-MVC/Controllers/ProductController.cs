@@ -1,10 +1,14 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using ProdcutDataAccessLayer;
 
 namespace Crud_MVC.Controllers
 {
     public class ProductController : Controller
     {
+        ProductRepsitory prorep;
+        IConfiguration configurestion;
+
         // GET: ProductController
         public ActionResult Index()
         {
