@@ -27,4 +27,8 @@
     <Folder Include="Views\Product\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\ProdcutDataAccessLayer\ProdcutDataAccessLayer.csproj" />
+  </ItemGroup>
+
 </Project>
