@@ -14,4 +14,13 @@
     <PackageReference Include="System.Data.SqlClient" Version="4.8.6" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Reference Include="Crud-MVC">
+      <HintPath>..\ProdcutDataAccessLayer\bin\Debug\net8.0\Crud-MVC.dll</HintPath>
+    </Reference>
+    <Reference Include="ProdcutDataAccessLayer">
+      <HintPath>..\ProdcutDataAccessLayer\obj\Debug\net8.0\ProdcutDataAccessLayer.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
 </Project>

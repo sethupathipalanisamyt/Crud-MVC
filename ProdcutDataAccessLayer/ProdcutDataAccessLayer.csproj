@@ -13,7 +13,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Crud-MVC\Crud-MVC.csproj" />
+    <Reference Include="Crud-MVC">
+      <HintPath>bin\Debug\net8.0\Crud-MVC.dll</HintPath>
+    </Reference>
   </ItemGroup>
 
 </Project>

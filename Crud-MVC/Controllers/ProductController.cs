@@ -6,13 +6,19 @@ namespace Crud_MVC.Controllers
 {
     public class ProductController : Controller
     {
-        ProductRepsitory prorep;
-        IConfiguration configurestion;
+       ProductRepsitory prorep;
+        IConfiguration _configurestion;
+        public ProductController(IConfiguration _configurestion)
+        {
+
+            prorep=new ProductRepsitory( _configurestion);
+        }
 
         // GET: ProductController
-        public ActionResult Index()
+        public ActionResult Showall()
         {
-            return View();
+           var result= prorep.Showall();
+            return View("Showall", result);
         }
 
         // GET: ProductController/Details/5
